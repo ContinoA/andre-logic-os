@@ -1,6 +1,6 @@
 # ANDRÉ LOGIC OS
 
-A modular operating architecture for André’s strategic reasoning, decision systems, knowledge structures, pressure-testing frameworks, and AI-assisted workflows.
+Build the initial production-quality Python runtime for ANDRÉ_OS in this repository. Use FastAPI. Default to SHADOW mode and fail closed. Create modules for runtime state, authority and capability enforcement, LIBRARY_OS workers, Smart Folder event handling, verification, audit receipts, recovery checkpoints, structured logging, and health monitoring. Add /health, /ready, and /state endpoints. Add pytest tests, pyproject.toml, Dockerfile, railway.toml, .env.example, and documentation. Use Railway’s PORT environment variable. Google Drive must use an adapter interface with no credentials or secrets hard-coded. All mutations must require an explicit authority snapshot and capability envelope. Preserve idempotency and provenance. Do not enable unrestricted autonomy. Do not commit, push, deploy, or add credentials. Generate the files only for review.
 
 ## Purpose
 
